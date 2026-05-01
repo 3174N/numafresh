@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple JS MIDI Controller</title>
+    <style>
+        .keys { display: flex; gap: 10px; margin-top: 20px; }
+        button { padding: 20px; font-weight: bold; cursor: pointer; }
+        .black { background: #333; color: white; }
+    </style>
+</head>
+<body>
+    <h1>JS MIDI Controller</h1>
+    <p id="status">מבקש גישת MIDI...</p>
+    
+    <div class="keys">
+        <button onmousedown="playNote(60)" onmouseup="stopNote(60)">C (Do)</button>
+        <button class="black" onmousedown="playNote(61)" onmouseup="stopNote(61)">C#</button>
+        <button onmousedown="playNote(62)" onmouseup="stopNote(62)">D (Re)</button>
+        <button onmousedown="playNote(64)" onmouseup="stopNote(64)">E (Mi)</button>
+        <button onmousedown="playNote(65)" onmouseup="stopNote(65)">F (Fa)</button>
+    </div>
+
+    <script src="controller.js"></script>
+</body>
+</html>
