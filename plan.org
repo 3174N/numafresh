@@ -1,0 +1,36 @@
+* Plan
+
+** Products
+- [X] V1
+- [X] V2
+- [-] V3
+  - [-] Case
+    - [-] Case design
+    - [-] Case printing
+  - [-] Keycap printing
+  - [ ] Electronics
+    - [ ] Perfboard design
+    - [ ] Soldering
+  - [ ] Assembly
+  - [ ] Talk to LED
+- [ ] V4
+  - [ ] Electronics
+    - [ ] SMD HE sensors
+
+** Firmware
+- [X] MIDI out
+- [ ] HE sensor calibration
+- [ ] Configuration
+  - [ ] Saving and loading configurations via usb
+  - [ ] MIDI notes
+  - [ ] LED color
+  - [ ] Velocity curve
+
+** General
+- [ ] Additional inputs
+  - [ ] Push buttons
+  - [ ] Wheels
+  - [ ] Faders
+  - [ ] Switches
+- [ ] OLED screen
+- [ ] Cool pitch bend mechanism
