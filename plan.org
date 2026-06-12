@@ -11,11 +11,14 @@
   - [ ] Electronics
     - [ ] Perfboard design
     - [ ] Soldering
+    - [ ] Capacitors for LED and multiplexers
   - [ ] Assembly
   - [ ] Talk to LED
 - [ ] V4
+  - [ ] Figure out formfactor
   - [ ] Electronics
     - [ ] SMD HE sensors
+    - [ ] DIP IC multiplexers
 
 ** Firmware
 - [X] MIDI out
@@ -34,3 +37,8 @@
   - [ ] Switches
 - [ ] OLED screen
 - [ ] Cool pitch bend mechanism
+- [ ] Modular system
+  - [ ] Central unit vs independent?
+    (katz says independent magniv)
+    If independent, consider uart communication between units
+  - [ ] Pogo pins? Magnets!
